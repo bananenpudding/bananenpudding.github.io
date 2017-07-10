@@ -6,7 +6,7 @@
 
  
 --Initializing--
-m = peripheral.wrap("right")
+m = peripheral.wrap("left")
 m.setBackgroundColor(2048)
 m.clear()
 m.setTextColor(1)
