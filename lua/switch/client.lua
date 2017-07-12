@@ -15,8 +15,6 @@ local modemSide = ""
 
 
 
-
-
 ----------------END OF CONFIGURATION---------------
 
 function setTextColorIfSupported(color)
