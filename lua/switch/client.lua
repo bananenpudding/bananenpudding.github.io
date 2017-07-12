@@ -44,7 +44,7 @@ while true do
   local input = read()
   if input == "exit" then
     term.clear()
-    print("Bye")
+    print("Goodbye")
     return
   elseif input == "" then
     setTextColorIfSupported(colors.red)
