@@ -7,7 +7,7 @@ local i = 0
 repeat
   line = tdfile.readLine()
   if line == "" or line == nil then break end
-  monitor.setCursorPos(4,3 + i)
+  monitor.setCursorPos(2,3 + i)
   monitor.setTextScale(2)
   monitor.write(i + 1 .. ". " .. line)
   i = i + 1
